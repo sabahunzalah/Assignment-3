@@ -1,6 +1,6 @@
 //Q1: Solve the below code of expressions using short circuit?
 // --------------------------question1------------------------------.
-// var a = 1
+// var a = 5
 //  let exp1 = ((4 + 5) && "abc" || false + "test") * (a-- || a--) || (false && (++a + 1)) * "end";
             //   ("abc") * (1) || (false) * "end";
             //   NaN ||  (false) * "end";
@@ -10,8 +10,8 @@
 
 //------------------------------question2-----------------------------
 
-// var b = 6
-// let exp2 = 10 * ("foo" && 5 + (++b) || "bar") && (false + "test") || 0 && true;
+// var a = 5
+// let exp2 = 10 * ("foo" && 5 + (++a) || "bar") && (false + "test") || 0 && true;
 //   (10) * (12) && ("falsetest") || 0
 //   120 && "falsetest" || 0
 //   "falsetest" || 0
